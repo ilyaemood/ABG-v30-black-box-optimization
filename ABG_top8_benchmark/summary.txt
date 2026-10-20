@@ -1,0 +1,20 @@
+ABG TOP-8 BENCHMARK — QUICK SUMMARY
+
+Algorithms: 8
+Function families: 33
+Deterministic tasks: 87
+Trials/task: 10
+Budget/run: 300
+Noisy cases: 6 families, sigma=(0.01, 0.05), trials=6
+
+Overall deterministic ranking:
+ 1. ABG-v30: mean rank=2.270, success@1e-3=74.5%, median sec=0.0310
+ 2. Dual Annealing: mean rank=3.046, success@1e-3=60.5%, median sec=0.0128
+ 3. DIRECT: mean rank=3.057, success@1e-3=62.0%, median sec=0.0068
+ 4. CMA-ES (compact implementation): mean rank=4.609, success@1e-3=40.2%, median sec=0.0106
+ 5. Sobol+L-BFGS-B: mean rank=5.144, success@1e-3=42.2%, median sec=0.0160
+ 6. Powell multi-start: mean rank=5.425, success@1e-3=41.0%, median sec=0.0131
+ 7. Differential Evolution: mean rank=6.057, success@1e-3=41.6%, median sec=0.0147
+ 8. Adam (finite-difference, lr=0.03): mean rank=6.391, success@1e-3=31.5%, median sec=0.0071
+
+Treat ranking as evidence for this suite only; do not extrapolate to universal superiority.

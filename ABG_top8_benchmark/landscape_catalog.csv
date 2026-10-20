@@ -1,0 +1,34 @@
+function,category,dimension_used_for_plot,file,description
+Sphere (convex),Convex,2,plots/landscapes/01_sphere__convex.png,"Smooth, isotropic quadratic with a known minimum."
+Sphere (shifted convex),"Convex, shifted",2,plots/landscapes/02_sphere__shifted_convex.png,Convex sphere translated to a different center per trial.
+Ellipsoid (ill-conditioned convex),"Convex, ill-conditioned",2,plots/landscapes/03_ellipsoid__ill_conditioned_convex.png,Separable quadratic with condition number about 10^6.
+Rotated Ellipsoid (convex),"Convex, rotated, ill-conditioned",2,plots/landscapes/04_rotated_ellipsoid__convex.png,Ill-conditioned quadratic with random orthogonal axes per trial.
+Bent Cigar (convex),"Convex, ill-conditioned",2,plots/landscapes/05_bent_cigar__convex.png,One gentle axis and very steep remaining directions.
+Discus (convex),"Convex, ill-conditioned",2,plots/landscapes/06_discus__convex.png,One very steep direction and gentler remaining directions.
+Zakharov (convex),Convex,2,plots/landscapes/07_zakharov__convex.png,Quadratic plus convex powers of a linear form.
+Rosenbrock,"Nonconvex, narrow valley",2,plots/landscapes/08_rosenbrock.png,Classic curved valley with a global minimum at the all-ones vector.
+Rotated Rosenbrock,"Nonconvex, rotated valley",2,plots/landscapes/09_rotated_rosenbrock.png,Rosenbrock valley rotated and translated per trial.
+Rastrigin,Multimodal,2,plots/landscapes/10_rastrigin.png,Periodic landscape with many local minima.
+Shifted Rastrigin,"Multimodal, shifted",2,plots/landscapes/11_shifted_rastrigin.png,Rastrigin with a noncentral global minimum.
+Rotated Rastrigin,"Multimodal, rotated and shifted",2,plots/landscapes/12_rotated_rastrigin.png,Rotated Rastrigin with a noncentral global minimum.
+Ackley,"Multimodal, flat basin",2,plots/landscapes/13_ackley.png,Flat central basin with a rugged outer landscape.
+Griewank,Multimodal,2,plots/landscapes/14_griewank.png,Many local minima across a broad domain.
+Schwefel,"Multimodal, deceptive",2,plots/landscapes/15_schwefel.png,Global optimum lies far from the origin.
+Levy,Multimodal,2,plots/landscapes/16_levy.png,Oscillatory landscape with a nonzero global minimizer.
+Styblinski-Tang,"Nonconvex, separable",2,plots/landscapes/17_styblinski_tang.png,Nonconvex quartic with competing minima.
+Dixon-Price,"Nonconvex, coupled",2,plots/landscapes/18_dixon_price.png,Coupled polynomial with a nontrivial global minimizer.
+Alpine 1,"Nonsmooth, multimodal",2,plots/landscapes/19_alpine_1.png,Nonsmooth oscillatory objective with many stationary features.
+Shifted Ellipsoid (ill-conditioned convex),"Convex, shifted, ill-conditioned",2,plots/landscapes/20_shifted_ellipsoid__ill_conditioned_convex.png,Ill-conditioned quadratic shifted away from the origin.
+Shifted Rotated Ellipsoid (convex),"Convex, shifted, rotated, ill-conditioned",2,plots/landscapes/21_shifted_rotated_ellipsoid__convex.png,Randomly rotated and shifted ill-conditioned quadratic.
+Shifted Bent Cigar (convex),"Convex, shifted, ill-conditioned",2,plots/landscapes/22_shifted_bent_cigar__convex.png,Bent-cigar quadratic shifted away from the origin.
+Shifted Discus (convex),"Convex, shifted, ill-conditioned",2,plots/landscapes/23_shifted_discus__convex.png,Discus quadratic shifted away from the origin.
+Shifted Zakharov (convex),"Convex, shifted",2,plots/landscapes/24_shifted_zakharov__convex.png,Zakharov landscape translated away from the origin.
+Shifted Ackley,"Multimodal, shifted, flat basin",2,plots/landscapes/25_shifted_ackley.png,Ackley landscape with a noncentral global minimum.
+Shifted Griewank,"Multimodal, shifted",2,plots/landscapes/26_shifted_griewank.png,Griewank landscape with a noncentral global minimum.
+Shifted Alpine 1,"Nonsmooth, shifted multimodal",2,plots/landscapes/27_shifted_alpine_1.png,Alpine 1 shifted to remove the central optimum.
+Beale (2D),"Multimodal, 2D-only",2,plots/landscapes/28_beale__2d.png,Two-variable polynomial with a known zero minimum.
+Himmelblau (2D),"Multimodal, 2D-only",2,plots/landscapes/29_himmelblau__2d.png,Four separated global minima.
+Michalewicz (2D),"Multimodal, 2D-only",2,plots/landscapes/30_michalewicz__2d.png,Sharp nonconvex minima; m=10.
+Powell Singular (4D),"Nonconvex, ill-conditioned, 4D",4,plots/landscapes/31_powell_singular__4d.png,Classic Powell singular quartic with coupled variables.
+Cross-in-Tray (2D),"Highly multimodal, 2D-only",2,plots/landscapes/32_cross_in_tray__2d.png,Sharp exponential-sine landscape with multiple global minima.
+Eggholder (2D),"Highly multimodal, 2D-only",2,plots/landscapes/33_eggholder__2d.png,Highly rugged 2D landscape with a boundary-near global minimum.

@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use ABG-v30 or its benchmark artifact, please cite this repository and the accompanying research report."
+title: "ABG-v30: Adaptive Box Subdivision for Budgeted Black-Box Optimization"
+version: "1.0"
+authors:
+  - family-names: "Emam"
+    given-names: "Iliya"
+abstract: >-
+  An exploratory benchmark report for an adaptive box-subdivision
+  optimizer evaluated across 33 continuous optimization function families and
+  87 deterministic function-dimension tasks. The reported results are descriptive
+  and do not establish universal or statistically significant superiority.
+keywords:
+  - black-box optimization
+  - derivative-free optimization
+  - global optimization
+  - benchmark reproducibility

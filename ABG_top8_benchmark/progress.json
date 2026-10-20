@@ -1,0 +1,11 @@
+{
+  "deterministic_done": 6960,
+  "deterministic_total": 6960,
+  "noisy_done": 576,
+  "noisy_total": 576,
+  "new_runs_this_pass": 520,
+  "elapsed_sec_this_pass": 12.03508973121643,
+  "last_function": "Shifted Alpine 1",
+  "last_dim": 30,
+  "last_method": "Adam (finite-difference, lr=0.03)"
+}
